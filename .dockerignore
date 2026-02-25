@@ -21,7 +21,9 @@ coverage.xml
 .mypy_cache
 .pytest_cache
 .uv
-uv.lock
 notebooks/
 tests/
 data/
+
+# Autoriser uv.lock
+!uv.lock
