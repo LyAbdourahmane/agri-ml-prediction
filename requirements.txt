@@ -1,0 +1,15 @@
+pandas
+numpy
+scikit-learn
+scipy
+yellowbrick
+joblib
+fastapi
+pydantic
+ipykernel
+seaborn
+uvicorn
+gradio
+plotly
+pytest
+mlflow

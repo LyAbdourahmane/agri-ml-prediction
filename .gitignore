@@ -1,0 +1,27 @@
+# --- Python & Environnement ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+.env
+.env.*
+.python-version
+.pytest_cache/
+.ipynb_checkpoints/
+
+# --- Données & Artefacts de Training (Non requis pour l'App) ---
+data/
+mlruns/
+.mlflow/
+*.csv
+*.log
+
+# --- IDE & Système ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Docker ---
+# On garde les Dockerfiles, mais on ignore les éventuels logs de build locaux
+docker-compose.override.yml
